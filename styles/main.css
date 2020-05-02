@@ -1,0 +1,403 @@
+/* CSS HEADER */
+body {
+  background-color: #e5e5e5;
+}
+
+/* reseteo basico */
+
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  margin: 2em;
+  background-color: #e5e5e5;
+}
+
+#logo,
+nav {
+  flex: 1;
+}
+
+/*logo*/
+.img-1 {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: #316099;
+}
+
+.img-2 {
+  width: 28px;
+  height: 28px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #316099;
+  background: #ffffff;
+  position: absolute;
+  left: 50px;
+  top: 56px;
+  z-index: 1;
+}
+
+.img-2 > p {
+  font-family: Gilroy;
+  font-style: bold;
+  color: #316099;
+  font-size: 1.4rem;
+  font-size: 20px;
+}
+
+nav {
+  padding: 1em;
+  font-family: Verdana, Geneva, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li a {
+  color: black;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 28px;
+  vertical-align: Top;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+nav li a:hover {
+  color: #316099;
+  font-family: Helvetica;
+  font-size: 20px;
+  line-height: 28px;
+  vertical-align: Top;
+  display: block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+@media screen and (min-width: 480px) {
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/* main*/
+
+.contenedor {
+  display: flex;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.eye {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+}
+
+.heaven {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+
+.circle-1 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: -10px;
+  top: 170px;
+  z-index: 3;
+  border-radius: 50%;
+  border: 8px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+.circle-2 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 219px;
+  top: 220px;
+  z-index: 3;
+  border-radius: 50%;
+  border: 8px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.circle-3 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 361px;
+  top: -20px;
+  z-index: 3;
+  border-radius: 50%;
+  border: 8px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.circle-4 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 856px;
+  top: 190px;
+  z-index: 3;
+  border-radius: 50%;
+  border: 8px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.circle-5 {
+  position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 1246px;
+  top: 40px;
+  z-index: 3;
+  border-radius: 50%;
+  border: 8px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+.texto-encima {
+  position: absolute;
+  width: 305px;
+  height: 74px;
+  left: 531px;
+  top: 12px;
+  z-index: 3;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+}
+.centrado {
+  position: absolute;
+  width: 780px;
+  height: 60px;
+  left: 293px;
+  top: 100px;
+  z-index: 3;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+/*Buscador*/
+.buscador {
+  display: grid;
+  align-items: center;
+}
+.search input {
+  position: absolute;
+  width: 940px;
+  height: 56px;
+  left: 213px;
+  top: 436px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: #1f3f68;
+  opacity: 0.6;
+}
+
+/*card numero 1*/
+.contenedor-1 {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+}
+
+.card-1 {
+  justify-items: center;
+}
+
+.img-card {
+  width: 500px;
+  height: 380px;
+}
+
+.texto-1 > h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 0.04em;
+  color: #356ead;
+  opacity: 0.8;
+}
+
+.texto-1 > span {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+
+.texto-1 > p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.name {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+
+.fecha {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+  opacity: 0.4;
+}
+
+.compartir {
+  display: grid;
+  grid-template-columns: 250px 250px;
+}
+
+.iconos-card-1 {
+  justify-self: end;
+  align-self: end;
+  padding: 20px;
+}
+
+/*CRID POR 3*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  grid-gap: 20px;
+  justify-content: center;
+}
+.card {
+  border: 1px solid #d3d3d3;
+  border-radius: 0.25rem;
+}
+
+.bg-img-1 {
+  background-size: cover;
+  min-height: 200px;
+  background-position: center;
+  background-color: #ccc;
+  background-image: url(/images/img-post-2.png);
+}
+
+.bg-img-2 {
+  background-size: cover;
+  min-height: 200px;
+  background-position: center;
+  background-color: #ccc;
+  background-image: url(/images/img-post-3.png);
+}
+.bg-img-3 {
+  background-size: cover;
+  min-height: 200px;
+  background-position: center;
+  background-color: #ccc;
+  background-image: url(/images/img-post-4.png);
+}
+
+.content {
+  padding: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: 1px solid #2196f3;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+
+.content > h2 {
+  font-family: Helvetica;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+  letter-spacing: 0.04em;
+  color: #1f3f68;
+}
+
+.content > p {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.compartir-3 {
+  display: grid;
+  grid-template-columns: 150px 150px;
+  justify-content: space-between;
+}
+
+.name-card-3 {
+  justify-self: end;
+  align-self: end;
+  padding: 20px;
+}
+
+.iconos-card-3 {
+  justify-self: end;
+  align-self: end;
+  padding: 20px;
+}
